@@ -48,7 +48,7 @@ jobs:
         run: |
           cd my-react-app 
           npm run cy:ci
-      - name: Run visual tests 👁
-        run: |
-          cd my-react-app
-          npm run test:visual
+      # - name: Run visual tests 👁
+      #   run: |
+      #     cd my-react-app
+      #     npm run test:visual
